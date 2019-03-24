@@ -725,7 +725,6 @@ export default {
       })
     },
     // 编辑用户组信息-添加新用户到用户组，点击“保存”
-    /* 应该添加去重 数组方法 find查找不存在 */
     submitUserAddToGroup () {
       console.log(this.form)
       this.$refs[this.form].validate((valid) => {
