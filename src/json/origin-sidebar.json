@@ -1,0 +1,46 @@
+  {
+    "mainMana": {
+      "items": [
+        { "id": 0,
+          "index": "homePage",
+          "title": "主页",
+          "icon": "el-icon-menu"
+        },
+        { "id": 1,
+          "index": "fenceCreate",
+          "title": "围栏创建",
+          "icon": "el-icon-circle-plus"
+        },
+        { "id": 2,
+          "index": "fenceMana",
+          "title": "围栏管理",
+          "icon": "el-icon-edit-outline"
+        },
+        { "id": 3,
+          "index": "userGroup",
+          "title": "用户组",
+          "icon": "el-icon-tickets"
+        },
+        { "id": 4,
+          "index": "deviceMana",
+          "title": "设备管理",
+          "icon": "el-icon-setting"
+        },
+        { "id": 5,
+          "index": "elecSign",
+          "title": "电子签到",
+          "icon": "el-icon-time"
+        },
+        { "id": 6,
+          "index": "alarmMana",
+          "title": "报警管理",
+          "icon": "el-icon-bell"
+        },
+        { "id": 7,
+          "index": "sysMana",
+          "title": "系统管理",
+          "icon": "el-icon-more"
+        }
+      ]
+    }
+  }

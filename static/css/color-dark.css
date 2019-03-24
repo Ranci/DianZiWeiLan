@@ -1,0 +1,18 @@
+.header{
+    background-color: #242f42;
+}
+.login-wrap{
+    background: #324157;
+}
+.plugins-tips{
+    background: #eef1f6;
+}
+.plugins-tips a{
+    color: #5cc1c0;
+}
+.el-upload--text em {
+    color: #5cc1c0;
+}
+.pure-button{
+    background: #5cc1c0;
+}

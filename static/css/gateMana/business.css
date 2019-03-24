@@ -1,0 +1,258 @@
+  .content-title {
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:14px;
+  }
+  .content-title-parent {
+    display: inline;
+    color: #999999
+  }
+  .content-title-child {
+    display: inline;
+    color: #4693a2
+  }
+  .content-title-child:hover{
+      cursor: pointer
+  }
+  .content-title-parent:hover{
+      cursor: pointer
+  }
+  .content-hr {
+    height:1px;border:none;border-top:1px solid #E8e9e9;width:100%
+  }
+  .businessClass .el-form-item {
+    margin-bottom: 0px
+  }
+  .businessClass .el-form--inline .el-form-item {
+    vertical-align: middle !important
+  }
+  .businessClass .el-form-item__label {
+    width:auto !important;
+    color:#333333;
+    padding:0;
+    font-size:14px
+  }
+  .businessClass .el-input__inner {
+    height:25px !important;
+    line-height: 25px !important;
+  }
+  .businessClass .el-button {
+    margin-top:20px;
+    height:25px;
+    width:60px;
+    font-size:12px;
+    padding: 0px 0px
+  }
+  .businessClass .el-cascader{
+  }
+  .addBus .el-form-item {
+    margin-bottom: 0px
+  }
+  .addBus .el-form-item__error{
+    padding-top:0px !important;
+  }
+  .addBus .el-form--inline .el-form-item {
+    vertical-align: middle !important
+  }
+  .addBus .el-form-item__label {
+    color:#333333;
+    padding:0;
+    font-size:14px
+  }
+  .addBus .el-input__inner {
+    height:30px;
+    line-height: 30px !important;
+  }
+  .addBus .el-upload-list--picture .el-upload-list__item-name i {
+    display:none
+  }
+  /** 图片格式提醒 **/
+  .addBus .el-upload__tip {
+    margin-top:0px
+  }
+  /** 上传图片列表样式： **/
+  .addBus .el-upload-list--picture .el-upload-list__item-thumbnail {
+    width:50px !important;
+    height:50px !important
+  }
+  /** li样式 **/
+  .addBus .el-upload-list--picture .el-upload-list__item {
+    height:72px;
+    margin-top:0px
+  }
+  /** 图片名称 **/
+  .addBus .el-upload-list--picture .el-upload-list__item-name{
+    margin-top:10px
+  }
+  .addBus .el-upload-list {
+    float: left;
+    width: 240px;
+  }
+  .submit-button .el-button {
+    padding:6px 16px !important;
+  }
+  .submit-button .el-button--primary {
+    background-color:#5cc1c0;
+    border-color:#5cc1c0
+  }
+  /** 设置标签样式 */
+  .addBusLabel .el-button {
+    margin-right:10px;
+    margin-bottom:10px;
+    width:100px
+  }
+  .addBusLabel .el-button+.el-button {
+    margin-right:10px;
+    margin-left:0px
+  }
+  .addBusLabel .el-button--primary {
+    background-color:#5cc1c0;
+    border-color:#5cc1c0
+  }
+  .el-table .headerClass {
+    background: #f2f3f4;
+    color:#333333;
+    font-size:14px;
+    padding:0px 0px;
+    text-align: center
+  }
+ .el-table .rowClass {
+   height: 36px;
+   padding: 0px 0px;
+   font-size: 14px;
+   color: #333333
+  }
+  .el-table td {
+    padding: 0px 0px;
+    border-bottom: 1px solid #e8e9e0;
+  }
+  .el-table .warning-row {
+    background: oldlace;
+  }
+
+  .el-table .success-row {
+    background: #f0f9eb;
+  }
+  .addBusLabel-div{
+    width:784px; border:2px dashed #dad9d7;padding: 25px 80px 5px 80px
+  }
+  .addBus-div{
+    width:800px; border:2px dashed #dad9d7;padding-bottom:15px;
+  }
+  .top-icon {
+    text-align:center;display:block;clear:both;margin-top:30px
+  }
+  .business-hr {
+    margin-left:20px;
+    display:inline-block;
+    border:none;
+    height:32px;
+    border-top:1px solid #dad9d7;
+    width:200px
+  }
+  .base-info {
+    text-align:center;display:inline-block;font-size:14px;
+  }
+  .busLabel{
+    color:#5cc1c0
+  }
+  .base-info:hover {
+    cursor: pointer
+  }
+  .line-dis {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .list-bar {
+    margin:0px;
+    padding:0px;
+    font-size:20px;
+    font-weight: bolder;
+    width: 50px;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background:url("../../../static/img/bg-floor.png") no-repeat;
+    background-size: 50px 180px;
+  }
+  .list-bar2 {
+    background:url("../../../static/img/add-menus.png") no-repeat;
+    background-size: 50px 85px;
+  }
+  .list-bar li {
+    display:block;
+    clear:both;
+    height:45px;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+  }
+  .list-bar li:hover {
+    cursor: pointer;
+    color: #66B1FF
+  }
+  .list-bar-size {
+    margin-top:0px
+  }
+  .list-bar-size hr {
+    width: 50%;
+    color: #E8E8E8;
+    opacity: 0.3;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .list-bar-size li {
+    height:45px;
+    font-size:50px;
+    opacity: 0.95;
+    font-weight: normal;
+    text-align: center
+  }
+  .list-bar-size li:hover {
+    cursor: pointer;
+  }
+  .floor-list {
+      position: absolute;
+      bottom: 45px;
+      left:15px;
+      opacity:0.95;
+      border-radius: 5px;
+  }
+  .floor-list-size {
+    position: absolute;
+    background: #FDFDFD;
+    opacity:0.95;
+    border-radius: 5px;
+    left: 15px;
+    bottom: 235px;
+  }
+  .floor-list-add {
+    position: absolute;
+    right: 6px;
+    top:6px;
+    opacity:0.95;
+    border-radius: 5px;
+  }
+  .floor-list-add img {
+    width:40px;
+    height:40px
+  }
+  .floor-list-add img:hover {
+    cursor: pointer;
+  }
+  #svgmap {
+    width: 500px;
+    height: 400px;
+  }
+  .liSelectClass {
+    color: #409EFF
+  }
+  .cursorClass {
+    cursor:url('http://ued.taobao.com/blog/wp-content/themes/taobaoued/images/cursor.ico'), default;
+  }
+  .close-point{
+    width:15px;height:15px;margin-bottom:-2px;margin-left:5px
+  }
+  .close-point:hover {
+    cursor:pointer;
+  }

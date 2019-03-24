@@ -1,0 +1,162 @@
+  .header-title {
+    padding-top:10px;
+    padding-bottom:5px;
+    font-size:18px; 
+    color: #3FAF98;
+  }
+  .filterForm {
+    margin-top:10px;
+    background-color:#fff;
+    padding-left:10px
+  }
+  .filterForm .el-date-editor .el-range-separator {
+    line-height: 25px;
+  }
+  .filterForm .el-button {
+    background-color:#3FAF98;    
+  }
+  .content-hr {
+    height:1px;border:none;border-top:1px solid #E8e9e9;width:100%
+  }
+  /** el-dialog样式 **/
+  /** 弹窗标题容器 **/
+  .manaDialog .el-dialog__header {
+      height: 24px;
+      padding: 10px 15px 10px;
+      background-color: #3FAF98;
+      text-align: center;
+      line-height:15px
+  }
+  /** 弹窗标题文字 **/
+  .manaDialog .el-dialog__title {
+      font-size: 16px;
+      color: #fff;
+  }
+  /** 关闭按钮button **/
+  .manaDialog .el-dialog__headerbtn {
+    top:15px
+  }
+  /** 关闭按钮i **/
+  .manaDialog .el-dialog__headerbtn .el-dialog__close {
+      color: #fff;
+  }
+  .manaDialog .el-form-item__label {
+    line-height:26px
+  }
+  .manaDialog .el-form-item__content {
+    line-height:26px;
+  }
+  .manaDialog .el-input__icon {
+    line-height:26px;   
+  }
+  .manaDialog .el-input__inner {
+    height:26px !important;
+    line-height: 0px
+  }
+  .manaDialog .el-cascader{
+      line-height: 26px;
+  }
+  /** 弹窗按钮 **/
+  .manaDialog .el-button{
+    padding: 0px 0px;
+    border-radius:5px;
+    width:240px;
+    height:30px
+  }
+  .manaDialog .el-transfer .el-button{
+    width: 50px;
+  }
+  .el-table .headerClass {
+    background: #fff;
+    color:#333333;
+    font-size:14px;
+    padding:0px 0px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #e8e9e0;
+  }
+ .el-table .rowClass {
+   height: 35px;
+   padding: 0px 0px;
+   font-size: 14px;
+   color: #333333;
+   text-align: center
+  }
+  .el-table td {
+    padding: 0px 0px;
+    /* border-bottom: 1px solid #a8a1a1; */
+    border: 1px solid #e8e9e0;
+  }
+  .el-table .warning-row {
+    background: oldlace;
+  }
+
+  .el-table .success-row {
+    background: #f0f9eb;
+  }
+  /* 弹窗内滚动条样式*/
+  .inner{
+      height: 436px;
+      top: 33px;
+      left: 13px;
+      overflow:hidden;
+  }
+  .innerbox{
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 100%;
+  }
+  .innerbox::-webkit-scrollbar {/*滚动条整体样式*/
+      width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+      height: 4px;
+  }
+  .innerbox::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+      border-radius: 5px;
+      -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+      background: rgba(0,0,0,0.2);
+  }
+  .innerbox::-webkit-scrollbar-track {/*滚动条里面轨道*/
+      -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+      border-radius: 0;
+      background: rgba(0,0,0,0.1);
+  }
+  /*筛选部分样式*/
+.filterMana .el-form-item {
+  margin-top:5px !important;
+  margin-bottom: 0px !important;
+}
+.filterMana .el-input__inner {
+  height:25px !important;
+  line-height: 25px !important;
+}
+.filterMana .el-cascader{
+  line-height:25px !important;
+}
+.filterMana .el-button{
+  height:25px;
+  width:80px;
+  padding: 0px 0px;
+}
+.filterMana  .el-button {
+    height:25px;
+    width:60px;
+    font-size:12px;
+    padding: 0px 0px
+}
+.filterMana .el-input__icon {
+  line-height:25px
+}
+.filterMana .el-date-editor .el-range-separator {
+  line-height: 20px;
+}
+.filterMana .el-range-editor.el-input__inner {
+  padding: 0
+}
+ /** 文字 **/
+  .text {
+      font-size: 15px;
+      color: #FF0000;
+      line-height:80px
+  }

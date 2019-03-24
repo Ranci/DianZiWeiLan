@@ -1,0 +1,20 @@
+.dianziweilanDialog .el-form{
+    padding:0 85px
+}
+.dianziweilanDialog .el-form-item__label {
+    color:#999999;
+    font-size:14px;
+}
+.dianziweilanDialog .el-form-item {
+    margin-bottom: 15px;
+}
+.inner {
+    height:356px !important;
+}
+.dianziweilanDialog .el-form-item__content {
+    color:#333333;
+    font-size: 14px;
+}
+.lostManTableClass .cellClass {
+    color: #EB1A1A
+}
